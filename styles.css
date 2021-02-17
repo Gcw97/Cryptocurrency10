@@ -1,1 +1,187 @@
+/* Student Names: Gerrod Wagner; Nathan Price; Vania Lee
+  Today's Date: 02/08/2021
+  File Name: StyleSheet.html
+  */
+  
+
+  /* CSS Reset Rule */
+  body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Style rules for  body and images */
+img { max-width: 100%;
+  display: block;
+  border-bottom: 25px;
+
+body {
+}
+    
+  
+
+}
+
+/*Style rules for mobile viewpoint*/
+
+
+/*Style rules to show mobile class and hide tab-desk class
+
+.mobile {
+  display: block;
+  font-family: 'Newsreader', serif;
+  }
+
+/* Hides content on Tablet/Desktop 
+.tab-desk {
+} 
+*/
+/* Style rules for header content */
+header {
+    
+    text-align: center;
+    font-size: 3em;
+    border: 10px;
+    font-family: Verdana, Arial, Times New Roman;
+}
+
+/* Hero Image */
+  .hero-image {
+    position: relative;
+      background-repeat:no-repeat;
+      background-position: none;
+      position:relative;
+      margin: auto;
+  }
+/* place text in Hero Image */
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: (-50%,-50%);
+    color:white;
+    font-family: 'Fjalla One', sans-serif;
+
+  }
+
+/*
+}
+.mobile h1{
+  padding: 3%;
+  text-align: center;
+}
+.mobile h2{
+  padding: 3%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+.mobile h3{
+  padding: 3%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+header h2 {
+    font-family: Copperplate, Arial, Verdana;
+}
+
+
+/* Style rules for navigation area (rounded corners added) */
+nav {
+    background-color:#4056A1;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    
+}
+ 
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    border-radius: 25px;
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+  
+}
+
+nav li {
+  display: inline-block
+  padding: 10px 0 10px 0px;
+}
+
+nav li a { 
+  display: block;
+  padding: 0.5em 2em;
+  color: #D79922;
+  text-decoration: none;
+
+}
+
+nav li: first-child {
+  border-top: none;
+  }
+
+  
+
+/* Style rules for main content */
+main {
+    padding: 3%;
+    background-color:#EFE2BA;
+    overflow: auto;
+    font-size: 2em;
+    font-family: Verdana, Arial, Times New Roman;
+}
+
+h2 {
+  position:center;
+  border-top:none;
+  background-color: #F13C20;
+  border-radius: 20px;
+  padding: 20px;
+  width:80%;
+  color: black;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+  /* (rounded corners added) with welcome content on index*/ 
+#Welcome {
+    background-color:#C5cbe3;
+    max-width: 100%;
+    padding:20px;
+    color:black;
+    border-radius: 30px;
+          
+}
+
+#ProsofCryptocurrency {
+                    background-color: ::#EFE2BA;
+                    color:#4056A1; 
+                    font-size: 1.5em
+  
+} 
+
+
+.action  {
+  font-style: italic;
+  text-decoration: none;
+  color: #ff3300;
+  
+  
+
+/* Style rules for footer content */
+
+
+footer {
+    text-align: left;
+    font-size: 0.5em;
+    clear: left;  
+}
+ 
+
+
+  
+   
 
