@@ -15,11 +15,9 @@
 /* Style rules for  body, html and images */
 img { max-width: 100%;
   display: block;
-  border-bottom: 25px;
-
-
+  border-bottom: 30px;
   
-  
+
 
 }
 
@@ -169,6 +167,12 @@ footer {
     border-radius: 30px;
           
 }
+#image {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;}
 
 #ProsofCryptocurrency {
                     background-color:#EFE2BA;
@@ -176,6 +180,7 @@ footer {
                     font-size: 1.5em
   
 } 
+
 
 
 .action  {
