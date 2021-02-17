@@ -12,14 +12,13 @@
 }
 
 
-/* Style rules for  body and images */
+/* Style rules for  body, html and images */
 img { max-width: 100%;
   display: block;
   border-bottom: 25px;
 
-body {
-}
-    
+
+  
   
 
 }
@@ -44,26 +43,31 @@ header {
     text-align: center;
     font-size: 3em;
     border: 10px;
-    font-family: Verdana, Arial, Times New Roman;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /* Hero Image */
-  .hero-image {
+  .hero{
     position: relative;
       background-repeat:no-repeat;
-      background-position: none;
       position:relative;
-      margin: auto;
+    }
+
+  .hero-image{ 
+    position: relative;
+    width: 200%;
+    height: 75%;
   }
+      
+  
 /* place text in Hero Image */
   .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: (-50%,-50%);
-    color:white;
+    background-color:#EFE2BA ;
+    position: center;
+    color:black;
     font-family: 'Fjalla One', sans-serif;
-
+    border-radius: none;
+    
   }
 
 /*
@@ -107,19 +111,19 @@ nav ul {
 }
 
 nav li {
-  display: inline-block
+  display: inline-block;
   padding: 10px 0 10px 0px;
 }
 
 nav li a { 
-  display: block;
+  display: inline-block;
   padding: 0.5em 2em;
   color: #D79922;
   text-decoration: none;
 
 }
 
-nav li: first-child {
+nav li:first-child {
   border-top: none;
   }
 
@@ -146,6 +150,16 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+footer {
+  border: radius 25px;
+    text-align: center;
+    font-size: 1em;
+    clear: left;  
+    font-family: Verdana, Arial, Times New Roman;
+}
+ 
+
+
   /* (rounded corners added) with welcome content on index*/ 
 #Welcome {
     background-color:#C5cbe3;
@@ -157,7 +171,7 @@ h2 {
 }
 
 #ProsofCryptocurrency {
-                    background-color: ::#EFE2BA;
+                    background-color:#EFE2BA;
                     color:#4056A1; 
                     font-size: 1.5em
   
@@ -166,22 +180,10 @@ h2 {
 
 .action  {
   font-style: italic;
-  text-decoration: none;
-  color: #ff3300;
+  font-weight: 1px;
+  color: #D79922;
+
   
-  
+}
 
 /* Style rules for footer content */
-
-
-footer {
-    text-align: left;
-    font-size: 0.5em;
-    clear: left;  
-}
- 
-
-
-  
-   
-
