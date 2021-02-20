@@ -17,26 +17,13 @@ img { max-width: 100%;
   display: block;
   border-bottom: 30px;
 
-  
-
-
 }
 
-/*Style rules for mobile viewpoint*/
+/* Style Rules to show mobile class and hide tab-desk */
 
 
-/*Style rules to show mobile class and hide tab-desk class
+/* Style Rules for Heading Area */
 
-.mobile {
-  display: block;
-  font-family: 'Newsreader', serif;
-  }
-
-/* Hides content on Tablet/Desktop 
-.tab-desk {
-} 
-*/
-/* Style rules for header content */
 header {
     
     text-align: center;
@@ -69,32 +56,7 @@ header {
     
   }
 
-
-  
-
-/*
-}
-.mobile h1{
-  padding: 3%;
-  text-align: center;
-}
-.mobile h2{
-  padding: 3%;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  
-.mobile h3{
-  padding: 3%;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
- 
-header h2 {
-    font-family: Copperplate, Arial, Verdana;
-}
-
-
-/* Style rules for navigation area (rounded corners added) */
+  /*Style rules for Nav Area */
 nav {
     background-color:#4056A1;
     font-family: 'Fjalla One', sans-serif;
@@ -130,10 +92,7 @@ nav li:first-child {
   }
 
 
-nav li a:hover {
-  color:#F13C20;
-}
-  
+
 
 /* Style rules for main content */
 main {
@@ -156,68 +115,146 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+/* Style rules for footer content */
+
 footer {
-  
-  border: radius 25px;
+    border-radius: 25px;
     text-align: center;
     font-size: 1em;
     clear: left;  
     font-family: Verdana, Arial, Times New Roman;
 }
  
+  /*selectors for classes and id */ 
 
-
-  /* (rounded corners added) with welcome content on index*/ 
 #Welcome {
     background-color:#C5cbe3;
     width: 90%;
     padding:25px;
     display: block;
     color:black;
-    border-radius: 30px;
-          
+    border-radius: 30px;      
 }
+
 .image {
   border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;}
+  width: 80%;
+}
 
 .video {
   border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;}
+  width: 80%;
+}
 
 
   .dance {
       height: auto;
       width: 40px;
       display: inline-block;
-      
-      
-
-  }
+    }
 
 #ProsofCryptocurrency {
                     background-color:#EFE2BA;
                     color:#4056A1; 
-                    font-size: 1.5em
-  
+                    font-size: 1.5em; 
 } 
 
 #rattler {
  opacity: 0.05;
+ position: relative;
 }
 
 .action  {
   font-style: italic;
   font-weight: 1px;
   color: #D79922;
-
-  
 }
 
-/* Style rules for footer content */
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width:620px),print {
+
+  .tab-desk { 
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+}
+
+
+  /* Media Query for Desktop Viewport */
+
+  @media screen and (min-width:1000px), print {
+
+      /* Desktop Viewport: Style Rules for nav area */
+
+      nav{
+        display: inline-block;
+      }
+
+      nav li {
+        font-size: 2em;
+        display: inline-block;
+      }
+      
+      nav li a { 
+        padding: padding: 5px 0 5px 0px;
+        display: inline-block;
+      }
+
+      nav li a:hover {
+        color:#F13C20;
+      }
+        
+  }
+
+
+
+  /* Media Query for Large Desktop Viewports */
+
+@media screen and (min-width:1921px), print{
+
+  body{
+      background: linear-gradient(#EFE2BA,#4056A1);
+
+    }
+
+
+  #wrapper {
+    width: 1920px;
+    margin: 0 auto;
+  }
+  
+  nav{
+        display: inline-block;
+      }
+      
+      nav li {
+        font-size: 2em;
+        display: inline-block;
+      }
+      
+      nav li a { 
+        padding: padding: 5px 0 5px 0px;
+        display: inline-block;
+      }
+
+      nav li a:hover {
+        color:#F13C20;
+      }
+
+
+
+}
+
+
+
