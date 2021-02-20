@@ -208,7 +208,9 @@ footer {
   
 } 
 
-
+#rattler {
+ opacity: 0.05;
+}
 
 .action  {
   font-style: italic;
