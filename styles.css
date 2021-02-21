@@ -115,6 +115,21 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+/* Home page style rules for columns */
+
+.column {
+  float: left;
+  width: 50%;
+  padding-top: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Style rules for footer content */
 
 footer {
@@ -126,6 +141,15 @@ footer {
 }
  
   /*selectors for classes and id */ 
+
+  .column-text {
+      background: linear-gradient(#4056A1,#D79922);
+      margin: 15% 10% ;
+      padding: 20%;
+
+      border-radius: 30px;
+
+  }
 
 #Welcome {
     background-color:#C5cbe3;
@@ -178,7 +202,7 @@ footer {
 
 /* Media Query for Tablet Viewport */
 
-@media screen and (min-width:620px),print {
+@media screen and (max-width:600px),print {
 
   .tab-desk { 
     display: block;
@@ -188,6 +212,11 @@ footer {
     display: none;
   }
 
+  .column{
+    width:100%;
+  }
+
+  
 }
 
 
