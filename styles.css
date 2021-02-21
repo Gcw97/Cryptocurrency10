@@ -197,19 +197,6 @@ footer {
 
       /* Desktop Viewport: Style Rules for nav area */
 
-      nav{
-        display: inline-block;
-      }
-
-      nav li {
-        font-size: 2em;
-        display: inline-block;
-      }
-      
-      nav li a { 
-        padding: padding: 5px 0 5px 0px;
-        display: inline-block;
-      }
 
       nav li a:hover {
         color:#F13C20;
@@ -244,7 +231,7 @@ footer {
       }
       
       nav li a { 
-        padding: padding: 5px 0 5px 0px;
+        padding: 5px 0 5px 0px;
         display: inline-block;
       }
 
