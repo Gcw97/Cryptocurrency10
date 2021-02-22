@@ -144,9 +144,9 @@ footer {
 
   .column-text {
       background: linear-gradient(#4056A1,#D79922);
-      margin: 15% 10% ;
+      margin: 25% 0 15% 20% ;
       padding: 20%;
-
+      border: 10px solid ;
       border-radius: 30px;
 
   }
@@ -208,14 +208,39 @@ footer {
     display: block;
   }
 
+
   .mobile {
     display: none;
   }
 
   .column{
     width:100%;
+   
   }
 
+  .column-text {
+    background: linear-gradient(#4056A1,#D79922);
+    margin: 10% 0 10% 20% ;
+    padding: 20%;
+    border: 10px solid ;
+    border-radius: 30px;
+  
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+header {
+    
+  text-align: center;
+  font-size: 2em;
+  border: 10px;
+  font-family: 'Fjalla One', sans-serif;
+}
   
 }
 
@@ -230,7 +255,9 @@ footer {
       nav li a:hover {
         color:#F13C20;
       }
-        
+
+     
+      .pictures { max-width: 80%;}
   }
 
 
