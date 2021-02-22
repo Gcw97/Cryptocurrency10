@@ -240,8 +240,17 @@ footer {
     padding: 20%;
     border: 10px solid ;
     border-radius: 30px;
-  
+  }
+  .image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
 }
+
 
 html, body {
   overflow-x: hidden;
@@ -258,7 +267,7 @@ header {
   font-family: 'Fjalla One', sans-serif;
 }
   
-}
+
 
 
   /* Media Query for Desktop Viewport */
