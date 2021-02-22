@@ -118,6 +118,7 @@ h2 {
   color: black;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
+  border:black solid 8px;
 }
 
 /* Home page style rules for columns */
