@@ -41,8 +41,12 @@ header {
 
   .hero-image{ 
     position: relative;
-    width: 100%;
-   
+    width: 100vw;
+   height: 35vh;
+   opacity: 95%;
+   border: black solid 5px;
+   border-left: none;
+   border-right: none;
   }
       
   
@@ -61,7 +65,8 @@ nav {
     background-color:#4056A1;
     font-family: 'Fjalla One', sans-serif;
     font-weight: bolder;
-    
+    border-bottom: black solid 5px;
+   
 }
  
 nav ul {
@@ -200,9 +205,19 @@ footer {
   color: #D79922;
 }
 
+.title {
+  background: linear-gradient(#4056A1,#D79922);
+}
+
 /* Media Query for Tablet Viewport */
 
 @media screen and (max-width:600px),print {
+
+  .hero-image{ 
+    position: relative;
+    width: 100vw;
+   height: 30vh;
+  }
 
   .tab-desk { 
     display: block;
