@@ -253,6 +253,7 @@ header {
 
 
       nav li a:hover {
+       transition: 0.5s;
         color:#F13C20;
       }
 
@@ -292,6 +293,7 @@ header {
       }
 
       nav li a:hover {
+        transition: 0.5s;
         color:#F13C20;
       }
 
