@@ -166,6 +166,15 @@ footer {
     border-radius: 30px;      
 }
 
+.image1 {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
 .image {
   border-radius: 25px;
   display: block;
@@ -182,7 +191,13 @@ footer {
   width: 80%;
 }
 
-
+/*full screen home page bios css */ 
+.mobile {
+ width: 30rem;
+margin: 5%;
+padding: 2%;
+font-size: 1rem;
+}
   .dance {
       height: auto;
       width: 40px;
@@ -196,8 +211,11 @@ footer {
 } 
 
 #rattler {
- opacity: 0.05;
- position: relative;
+ opacity: 0.04;
+ flex-direction: row;
+ max-width: 50vw;
+ margin: auto;
+
 }
 
 .action  {
@@ -226,6 +244,7 @@ footer {
   }
 
   .mobile {
+  
     display: none;
   }
 
@@ -236,12 +255,14 @@ footer {
 
   .column-text {
     background: linear-gradient(#4056A1,#D79922);
-    margin: 10% 0 10% 20% ;
-    padding: 20%;
+    margin: 15%;
+    padding: 2rem;
+    font-size: 1rem;
     border: 10px solid ;
     border-radius: 30px;
+    
   }
-  .image {
+  .image1 {
     border-radius: 25px;
     display: block;
     margin-left: auto;
@@ -287,7 +308,7 @@ header {
       }
 
      
-      .pictures { max-width: 80%;}
+      .pictures { max-width: 95%;}
   }
 
 
