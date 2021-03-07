@@ -55,6 +55,7 @@ header {
     background-color:#EFE2BA ;
     color:black;
     font-family: 'Fjalla One', sans-serif;
+    text-shadow: 3px 4px whitesmoke;
    
     
   }
@@ -117,6 +118,8 @@ h2 {
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
   border:black solid 8px;
+  
+  
 }
 
 #indexpic {
@@ -134,6 +137,7 @@ figure {
   align-content: center;
   background: whitesmoke;
   color: black;
+ 
 
 }
 
@@ -190,7 +194,8 @@ footer {
     padding:25px;
     display: block;
     color:black;
-    border-radius: 30px;      
+    border-radius: 30px;   
+    box-shadow: -10px 10px 10px black;   
 }
 
 .image1 {
@@ -199,6 +204,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
 
 }
 
@@ -258,6 +264,13 @@ font-size: 1rem;
   animation: gradient 10s ease infinite;
 }
 
+.image2 {
+  width:100vw;
+  height:50vh; 
+  border: 5px solid black;
+  box-shadow: -10px 20px 20px black;  
+}
+
 /*animated gradient */
 
 @keyframes gradient {
@@ -280,6 +293,7 @@ font-size: 1rem;
     justify-content: space-between;
     width: auto;
     height: 10vh;
+  
   }
   
   .hero-image{ 
@@ -317,6 +331,8 @@ font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  
+   
   }
 
   .title {
@@ -360,6 +376,9 @@ header {
         color:#F13C20;
       }
 
+   
+        
+  
      
       .pictures { max-width: 95%;}
   }
@@ -374,7 +393,7 @@ header {
       background: linear-gradient(#EFE2BA,#4056A1);
 
     }
-    
+
   #wrapper {
     width: 1920px;
     margin: 0 auto;
