@@ -53,10 +53,9 @@ header {
 /* place text in Hero Image */
   .hero-text {
     background-color:#EFE2BA ;
-    position: center;
     color:black;
     font-family: 'Fjalla One', sans-serif;
-    border-radius: none;
+   
     
   }
 
@@ -109,7 +108,6 @@ main {
 }
 
 h2 {
-  position:center;
   border-top:none;
   background-color: #F13C20;
   border-radius: 20px;
@@ -122,7 +120,7 @@ h2 {
 }
 
 #indexpic {
-  width: 200px;
+  width: 140px;
   align-content: center;
   border-radius: 100%;
   border: 4px solid black;
@@ -134,7 +132,8 @@ figure {
   border: 2px solid;
   padding: 10px;
   align-content: center;
-  background-color: white;
+  background: whitesmoke;
+  color: black;
 
 }
 
@@ -248,7 +247,6 @@ font-size: 1rem;
 
 .action  {
   font-style: italic;
-  font-weight: 1px;
   color: #D79922;
 }
 
@@ -276,9 +274,12 @@ font-size: 1rem;
     font-size: 1rem;
   }
   .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
+    height: 10vh;
   }
   
   .hero-image{ 
@@ -322,7 +323,11 @@ font-size: 1rem;
     font-size: 2rem;
   }
 
+  #rattler {
+    position: absolute;
+    
 }
+
 
 
 html, body {
@@ -369,8 +374,7 @@ header {
       background: linear-gradient(#EFE2BA,#4056A1);
 
     }
-
-
+    
   #wrapper {
     width: 1920px;
     margin: 0 auto;
@@ -394,7 +398,5 @@ header {
         transition: 0.5s;
         color:#F13C20;
       }
-
-
 
     }
