@@ -141,7 +141,7 @@ h3 {
   text-align: center;
   border: 3px solid black;
   font-size: 1rem;
-  height: 120vh;
+  height: 140vh;
   margin: 5%;
 }
 
@@ -194,7 +194,9 @@ figcaption {
 
 .container {
   display: flex;
-  margin-top: 10rem;
+  margin:auto;
+  width:75vw;
+  
  
 }
 /* Home page style rules for columns */
@@ -230,11 +232,12 @@ footer {
   height: 40vh;
   font-weight: bold;
   text-decoration: none;
+  justify-content: space-between;
 }
  /* Related Articles Positioning need edit */
 #articles1 { 
   position: relative;
-  width:75vw;
+  width:auto;
   margin:auto;
   background-color:#4056A1;
   display: inline-block;
@@ -373,6 +376,10 @@ font-size: 1rem;
   main {
     font-size: 1rem;
   }
+  
+  figcaption{
+    display:hidden;
+  }
 
   .grid {
 
@@ -385,6 +392,7 @@ font-size: 1rem;
     border: 3px solid black;
     font-size: 1rem;
     height: 195vh;
+   
   }
   
 
