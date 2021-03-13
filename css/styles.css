@@ -369,6 +369,66 @@ font-size: 1rem;
   100% {background-position: 0%;}
 }
 
+/* Contact Page */
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  border: 5px solid black;
+  margin-top: 10%;
+  width: 50%;
+  box-shadow: -5px 10px black;
+  margin-bottom: 10%;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+label {
+  margin: left;
+  font-size: 1.3rem;
+}
+
+input{
+  border: 2px solid black;
+  font-size: 1rem;
+  width: 75%;
+  margin: left;
+  text-align: center;
+}
+
+textarea {
+  margin-top: 4%;
+  margin: left;
+  font-size: 1rem;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.info1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#map {
+  width: 100%;
+  margin: auto;
+
+}
+
+
+/*!!!!!!!!!!!! Media Viewports Below !!!!!!!!!!! */
+
+
+
 /* Media Query for Tablet Viewport */
 
 @media screen and (max-width:600px),print {
