@@ -192,6 +192,8 @@ figcaption {
   
 }
 
+
+
 .container {
   display: flex;
   margin:auto;
@@ -250,6 +252,55 @@ figure:hover {
   background-color:#D79922 ;
   transition: 0.5s;
 }
+
+/* future page table and paragraph */
+
+caption{
+  font-weight: bold;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+th {
+  background-color: #ffb52c;
+}
+
+td:nth-child(odd){
+  background-color: #5473db;
+}
+td:nth-child(even){ 
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+
+
+th,td,tr {
+  border: 2px solid black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#myContainer {
+  width:800px;
+  height:250px;
+  position: relative;
+  background:grey;
+}
+#warning {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: auto;
+}
+
 
  
   /*selectors for classes and id */ 
@@ -380,7 +431,53 @@ font-size: 1rem;
 
 /* Contact Page */
 
+#contactpage {
+ 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin:10% auto;
+}
 
+.rookie1 {
+  border: 1px solid black;
+  padding: 10%;
+  display: block;
+  font-size: 1rem;
+  margin:auto;
+  text-align: center;
+text-decoration: none;
+}
+.rookie1:hover {
+  background-color: whitesmoke;
+}
+
+.rookie2 {
+  border: 1px solid black;
+  padding: 10%;
+  display: block;
+  font-size: 1.5rem;
+  margin:1.5rem;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10% auto;
+}
+.rookie2:hover {
+  background-color: #D79922;
+}
+.rookie3 {
+  border: 1px solid black;
+  padding: 10%;
+  display: block;
+  font-size: 1.5rem;
+  margin:1.5rem;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10% auto;
+}
+.rookie3:hover {
+  background-color: whitesmoke;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -444,6 +541,19 @@ textarea {
 
 @media screen and (max-width:600px),print {
 
+  /*future page */
+  table {
+    width:50%;
+  }
+  th,tr,td {
+    width:50%;
+    font-size: .6rem;
+    padding: 10px;
+  }
+  #warning {
+    font-size: .6rem;
+  }
+/*-----------------*/
   main {
     font-size: 1rem;
   }
