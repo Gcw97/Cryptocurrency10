@@ -271,11 +271,20 @@ figure:hover {
     display: block;
     color:black;
     border-radius: 30px;   
-    animation: mymove 5s infinite; 
+    animation: mymove 4s infinite; 
 }
 
 @keyframes mymove {
-  50% {box-shadow: -7px 7px 20px 7px red}
+  0% {box-shadow: -7px 7px 20px 7px #4056A1
+  }
+  25% {box-shadow: -7px 7px 20px 7px #8fc33a
+  }
+  50% {box-shadow: -7px 7px 20px 7px #Fe65b7
+  }
+  75%{box-shadow: -7px 7px 20px 7px aqua
+  } 
+  100% {box-shadow: -7px 7px 20px 7px white}
+
 }
 
 .image1 {
@@ -388,7 +397,9 @@ legend {
   font-size: 2rem;
   margin-bottom: 5%;
   text-align: center;
+  
 }
+ 
 
 label {
   margin: left;
