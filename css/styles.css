@@ -292,13 +292,15 @@ th,td,tr {
   width:800px;
   height:250px;
   position: relative;
-  background:grey;
+  margin: auto;
+ 
 }
 #warning {
   text-align: center;
   font-size: 1.2rem;
   width: 100%;
   margin: auto;
+  color: red;
 }
 
 
