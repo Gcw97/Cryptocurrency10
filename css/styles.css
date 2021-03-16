@@ -91,6 +91,10 @@ nav li a {
   text-decoration: none;
 
 }
+nav li a:hover {
+  transition: 0.5s;
+  color:#F13C20;
+}
 
 nav li:first-child {
   border-top: none;
