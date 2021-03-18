@@ -146,7 +146,7 @@ h3 {
   border: 3px solid black;
   font-size: 1.5rem;
   height: 100rem;
-  margin: 5%;
+  margin-top: 5%;
 }
 
 button {
@@ -166,7 +166,7 @@ h4 {
   display:grid;
   grid-column: 1 /span 3;
   margin: auto;
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-shadow: -1px 1px white;
 }
 
@@ -202,6 +202,7 @@ figcaption {
   display: flex;
   margin:auto;
   width:75vw;
+  
   
  
 }
@@ -243,7 +244,7 @@ footer {
  /* Related Articles Positioning need edit */
 #articles1 { 
   position: relative;
-  width:auto;
+  width:75vw;
   margin:auto;
   background-color:#4056A1;
   display: inline-block;
@@ -293,8 +294,8 @@ th,td,tr {
 }
 
 #myContainer {
-  width:800px;
-  height:250px;
+  width:75vw;
+  height:100vh;
   position: relative;
   margin: auto;
  
@@ -438,21 +439,22 @@ font-size: 1rem;
 /* Contact Page */
 
 #contactpage {
- 
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin:10% auto;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
 }
 
 .rookie1 {
   border: 1px solid black;
   padding: 10%;
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin:auto;
   text-align: center;
+  justify-self: flex-start;
 text-decoration: none;
+
 }
 .rookie1:hover {
   background-color: whitesmoke;
