@@ -101,7 +101,10 @@ nav li:first-child {
   }
 
 
-
+audio {
+  position:relative;
+  margin: auto
+}
 
 /* Style rules for main content */
 .hamburger1 {
