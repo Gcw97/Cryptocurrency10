@@ -104,6 +104,9 @@ nav li:first-child {
 
 
 /* Style rules for main content */
+.hamburger1 {
+  display: none}
+
 main {
     padding: 3%;
     background-color:#EFE2BA;
@@ -466,10 +469,12 @@ font-size: 1rem;
 /* Contact Page */
 
 #contactpage {
-  height: 50vh;
+  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 200px) ;
+  margin: auto;
+  grid-gap: 4rem;
+  justify-content: center;
 }
 
 #contactpage a{ 
@@ -496,6 +501,7 @@ font-size: 1rem;
 text-decoration: none;
 box-shadow: -5px 10px 10px 10px black;
 }
+
 .rookie1:hover {
   background-color: whitesmoke;
 }
@@ -532,11 +538,8 @@ box-shadow: -5px 10px 10px 10px black;
 
 
 #rattlertext{
-  height: 30vh;
-  padding:2%;
   background-color: green;
   color: orange;
-  margin-top: 10%;
   border: 2px dashed orange;
   font-size: 2rem;
   text-align: center;
@@ -605,6 +608,12 @@ textarea {
 
 @media screen and (max-width:600px),print {
 
+.hero {
+  border-top: 5px solid black;
+}
+/* Nav Bar */
+
+
 
 
   /* index page */
@@ -615,22 +624,40 @@ textarea {
   }
   
   button {  
-    font-size: .6rem;
+    font-size: .7rem;
   }
 
+/* Contact Page */
 
 
-  /*future page */
-  table {
+
+
+
+
+
+
+
+
+  /* Future Page */
+  table 
+  {
     width:50%;
   }
-  th,tr,td {
+
+  th,tr,td 
+  {
     width:50%;
     font-size: .6rem;
     padding: 10px;
   }
-  #warning {
+  #warning 
+  {
     font-size: .6rem;
+  }
+
+  #rattlertext
+  {
+    font-size: 1rem;
   }
 /*-----------------*/
   main {
