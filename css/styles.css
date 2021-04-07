@@ -114,13 +114,13 @@ main {
     padding: 3%;
     background-color:#EFE2BA;
     overflow: auto;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: Verdana, Arial, Times New Roman;
 }
 
 h2 {
   border-top:none;
-  background-color: #F13C20;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 20px;
   width:80%;
@@ -270,8 +270,8 @@ figure:hover {
 
 caption{
   font-weight: bold;
-  margin-bottom: 2%;
-  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 table {
   border: 2px solid black;
@@ -298,7 +298,7 @@ th,td,tr {
   border: 2px solid black;
   text-align: center;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #myContainer {
@@ -310,7 +310,7 @@ th,td,tr {
 }
 #warning {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 100%;
   margin: auto;
   color: red;
@@ -355,14 +355,14 @@ button {
   }
 
 #Welcome {
-  margin: auto;
+  margin: 30px auto;
     background-color:#C5cbe3;
     width: 90%;
     padding:25px;
     display: block;
     color:black;
     border-radius: 30px;   
-    animation: mymove 4s infinite; 
+  
 }
 
 @keyframes mymove {
@@ -425,6 +425,7 @@ font-size: 1rem;
 } 
 
 #rattler {
+ display: relative;
  opacity: 0.04;
  flex-direction: row;
  max-width: 50vw;
@@ -544,19 +545,19 @@ box-shadow: -5px 10px 10px 10px black;
   background-color: green;
   color: orange;
   border: 2px dashed orange;
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  padding: 4%;
+  padding: 2rem;
   border: 5px solid black;
-  margin-top: 10%;
-  width: 50%;
-  box-shadow: -5px 10px black;
-  margin-bottom: 10%;
+  margin: auto;
+  width: 25vw;
+  
+ 
 }
 
 legend {
@@ -597,11 +598,18 @@ textarea {
 }
 
 #map {
-  width: 100%;
-  margin: 5% auto 0 auto;
+  display: flex;
+  width: 50%;
+  margin: 0 15% 0 0;
+  justify-items: flex-start;
 
 }
 
+.flexbox {
+ margin:  25px auto;
+  display: flex;
+  
+}
 
 /*!!!!!!!!!!!! Media Viewports Below !!!!!!!!!!! */
 
@@ -611,14 +619,12 @@ textarea {
 
 @media screen and (max-width:600px),print {
 
-<<<<<<< HEAD
 .hero {
   border-top: 5px solid black;
 }
 /* Nav Bar */
 
 
-=======
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -639,7 +645,6 @@ textarea {
   font-size: 17px;
   display: block;
 }
->>>>>>> f1fc5a21da43f1e4fd2a761698ca8cfd3421df3d
 
 /* Style the hamburger menu */
 .topnav a.icon {
@@ -677,7 +682,22 @@ textarea {
 
 
 
+.flexbox {
+ 
+  display: grid;
+  margin: auto;
+  grid-template-rows: 1fr 1fr ;
+}
 
+#map {
+  width: 60vw;
+  margin: auto;
+}
+
+form{
+  width: auto;
+  margin: 25px auto;
+}
 
 
 
@@ -703,6 +723,8 @@ textarea {
 
   #rattlertext
   {
+    padding: 15px;
+    margin: 25px auto;
     font-size: 1rem;
   }
 /*-----------------*/
